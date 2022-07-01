@@ -1,0 +1,89 @@
+.top{
+    padding-top: 8vh;
+}
+
+.slideshow {
+    display: flex;
+    flex-direction: row;
+    width: 720px;
+    height: 477px; 
+    margin-left: auto;
+    margin-top: 30px;
+    margin-right: auto;
+    justify-content: center;
+    align-content: center;
+
+    text-align: center;
+    overflow: hidden;
+    flex-direction: column;
+    padding-left: auto;
+}
+
+.slides {
+    display: inline-flex;
+}
+
+.slide1{ 
+    background-color: #000000;
+    width: 960px;
+    height: auto;
+}
+
+.fhockimg {
+    width: 960px;
+    height: width;
+    justify-content: center;
+}
+
+.button {
+    display: block;
+    width: 30px;
+    border-radius: 15px;
+    height: 30px;
+    margin-right: 15px;
+    margin-top: 10px;
+    background-color: #808f87;
+    text-decoration: none;
+    color: white;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    filter: drop-shadow(0px 0px 3px rgba(0,0,0,.6));
+}
+
+.button:hover {
+    background-color: #303633;
+}
+
+#infoBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    margin-top: 50px;
+    margin-right: 3%;
+    margin-left: 3%;
+    gap: 15%;
+    text-align: left;
+}
+
+li::before {
+    content: "»";
+    padding-right: 5px;
+    font-size: 20px;
+    list-style-position: inside;
+}
+
+ul {
+    list-style: none;
+    list-style-position: inside;
+    margin-left: 0;
+    padding-left: 1em;
+    text-indent: -1em;
+    margin-top: 2px;
+}

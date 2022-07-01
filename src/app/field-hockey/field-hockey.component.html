@@ -1,0 +1,77 @@
+<div class="top"></div>
+
+<div class ="slideshow box">
+    <div class="slides">
+        <div id="slide1">
+            <img src="assets/img/fhock/DSC_2320.JPG" class="fhockimg">
+        </div>
+
+        <div id="slide2">
+            <img src="assets/img/fhock/DSC_2375.JPG" class="fhockimg">
+        </div>
+
+        <div id="slide3">
+            <img src="assets/img/fhock/DSC_2382.JPG" class="fhockimg">
+        </div>
+
+        <div id="slide4">
+            <img src="assets/img/fhock/DSC_2412.JPG" class="fhockimg">
+        </div>
+
+        <div id="slide5">
+            <img src="assets/img/fhock/DSC_2413.JPG" class="fhockimg">
+        </div>
+
+        <div id="slide6">
+            <img src="assets/img/fhock/DSC_2417.JPG" class="fhockimg">
+        </div>
+
+        <div id="slide7">
+            <img src="assets/img/fhock/DSC_2418.JPG" class="fhockimg">
+        </div>
+    </div>
+</div>
+
+<div id="buttons">
+    <a href="field-hockey/#slide1" class="button" id="button1" onclick="myScript(this.id, this.className)" ></a>
+    <a href="field-hockey/#slide2" class="button" id="button2" onclick="myScript(this.id, this.className)" ></a>
+    <a href="field-hockey/#slide3" class="button" id="button3" onclick="myScript(this.id, this.className)" ></a>
+    <a href="field-hockey/#slide4" class="button" id="button4" onclick="myScript(this.id, this.className)" ></a>
+    <a href="field-hockey/#slide5" class="button" id="button5" onclick="myScript(this.id, this.className)" ></a>
+    <a href="field-hockey/#slide6" class="button" id="button6" onclick="myScript(this.id, this.className)" ></a>
+    <a href="field-hockey/#slide7" class="button" id="button7" onclick="myScript(this.id, this.className)" ></a>
+    <script type="text/javascript">
+        function myScript(btn, x) {
+            buttons = document.getElementsByClassName(x);
+            for (var i = 0; i < buttons.length; i++) {
+                buttons[i].style.backgroundColor = "#808f87";
+            }
+
+            var property = document.getElementById(btn);
+            property.style.backgroundColor = "#303633";
+        }
+    </script>
+</div>
+
+<div id="infoBox">
+    <div>
+        <h3 class="subheader">Accolades</h3>
+        <ul class="sub-info">
+            <li class="bullets">Practice Player & Manager for UNCs Division I team</li>
+            <li class="bullets">Invited to USA Junior National Camp last summer</li>
+            <li class="bullets">Played against Chile & Mexico in a Tri-series for the USA U-21 team last summer</li>
+            <li class="bullets">Club player with Centercourt Elite and East Coast High Performance</li>
+        </ul>
+        <br>
+    </div>
+    <div>
+        <h3 class="subheader">Playing Information</h3>
+        <ul class="sub-info">
+            <li class="bullets">Position: Forward and Midfielder</li>
+            <li class="bullets">Stick: Ritual Velocity 95</li>
+            <li class="bullets">Pregame Snack: Fruit Snacks</li>
+            <li class="bullets">Goal: Play in the Olympics</li>
+        </ul>
+        <br>
+    </div>
+</div>

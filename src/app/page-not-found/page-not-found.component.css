@@ -1,0 +1,31 @@
+
+.error {
+    font-family: 'Lato', sans-serif;
+    
+    color: #490912;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+
+.smaller {
+    font-size: 70px;
+    font-family: 'Lato';
+    font-weight: lighter;
+    padding-top: 25px;
+}
+
+.bigger {
+    font-size: 140px;
+    font-weight: bolder;
+    font-family: Lato;
+    padding-top: 10vh;
+    color: #490912;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
